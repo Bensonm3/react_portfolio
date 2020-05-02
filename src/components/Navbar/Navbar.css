@@ -1,0 +1,77 @@
+
+
+.row1 {
+    margin-left: 0;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    background-color:#ffffff;
+}
+.namecontainer {
+    padding-right: 0;
+}
+.namebox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 98px;
+    margin-left: 20px;
+
+}
+
+.portfolio {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.linkbox {
+    padding: 0;
+}
+.links {
+    text-align: center;
+    float: center;
+    margin: 0;
+    padding: 0;    
+}
+.navbar {
+    background-color: #dddddd;
+    line-height: 98px;
+    margin: 0;
+    padding: 0;
+}
+.linklines:hover {
+    font-size: 20px;
+    color: purple;
+}
+
+@media (max-width: 640px) {
+
+    head {
+        height: 200px;
+    }
+    .row1 {
+        height: 200px;
+    }
+    .namebox {
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0 0 0;
+        margin-left: 0;
+    }
+    .links {
+        width: 100%;
+        background-color:#ffffff;
+        height: 50%;
+        text-align: center;
+        border-bottom: 1px solid #cccccc;
+    }
+    .linklines {
+        text-align: center;
+    }
+    .namecontainer {
+        padding-left: 0;
+    }
+}

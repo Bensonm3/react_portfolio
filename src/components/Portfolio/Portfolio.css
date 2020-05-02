@@ -1,0 +1,69 @@
+.row2 {
+    margin-top: 20px;
+}
+.portfoliobox {
+    border-bottom: 3px solid #777777;
+}
+h2 {
+    font-size: 30px;
+    color: #4aaaa5;
+    line-height: 50px;
+    padding-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 1px solid #dddddd;
+}
+
+.contentbox {
+    background-color: #ffffff;
+    margin-left: 45px;
+
+}
+.picborder {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+.picbox {
+    width: 100%;
+    height: 100%;
+}
+.pic {
+width: 300px;
+height: 300px;
+border: 1px solid #dddddd;
+position: relative;
+z-index: 0;
+}
+.picbanner {
+    height: 40px;
+    font-size: 30px;
+    width: 300px;
+    background-color: lightgray;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+}
+.footer {
+bottom: 0;
+background-color: #666666;
+border-top: 8px solid #4aaaa5;
+width: 100%;
+text-align: center;
+color: #ffffff;
+}
+
+@media (max-width: 640px) {
+    .contentbox{
+        width: 335px;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 768px;){
+    .contentbox{
+        margin-right: 25%;
+    }
+}
