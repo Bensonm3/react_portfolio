@@ -1,6 +1,7 @@
 import React,  { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './Navbar.css';
+import Background from '../Images/trees.png'
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
@@ -34,9 +35,9 @@ class Navbar extends Component {
                 </nav>
             </div>
         </div>
-        <div class = "row">
+        <div style={{backgroundImage: `url(${Background})`}} class = "row">
             <div class="col-md-12 linkbox">
-                    <div class="links">
+                    <div class="directory">
                         <Navigation />
                         <Switch>
                         <Route path="/" component= {About} exact/> 

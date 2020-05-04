@@ -1,4 +1,6 @@
-
+.directory {
+    text-align: center;
+}
 
 .row1 {
     margin-left: 0;
@@ -30,7 +32,6 @@
     padding: 0;
 }
 .links {
-    text-align: center;
     float: center;
     margin: 0;
     padding: 0;    

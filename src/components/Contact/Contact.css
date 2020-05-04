@@ -1,3 +1,5 @@
+
+
 .row2 {
     display: inline;
 }
@@ -22,27 +24,11 @@ h2 {
     border-top: 1px solid #dddddd;
 
 }
-.field {
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777; 
+.mail {
+    height: 7%;
+    width: 7%;
 }
 
-.textbox {
-    width: 90%;
-}
-.messagebox {
-    height: 200px;
-    width: 90%;
-    margin: auto;
-}
-.submitbutton {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 5px 10px 5px 10px;
-}
-.submitbutton:active {
-    background-color: purple;
-    }
 .footer {
 position: fixed;
 bottom: 0;
@@ -79,4 +65,8 @@ color: #ffffff;
     margin-right: 5%;
     width: 80%;
     }
+}
+.mailIcon {
+height: 100px;
+width: 100%;
 }

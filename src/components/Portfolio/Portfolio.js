@@ -29,7 +29,7 @@ const Portfolio = () => {
                             <img class="pic pic1" src={getOutside} alt="pic 1" />
                             <div class="picbanner">
                                 <a href="https://bmalkmus.github.io/getOutsideApp/" >Get Outside App</a>  
-                                <a href="https://github.com/bmalkmus/getOutsideApp">Github</a>
+                                
                             </div>
                     </div>
                 </div>
@@ -62,7 +62,6 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic5" src={oat} alt="pic 5" />
                             <div class="picbanner"> <a href="https://secret-wildwood-65776.herokuapp.com/" >Order Allocation Tool</a>
-                                <a href="https://github.com/esteinmetzer/reborn-badass">Github</a>
                                 </div>
                         </div>
                     </div>
