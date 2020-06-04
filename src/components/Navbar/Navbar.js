@@ -25,7 +25,7 @@ class Navbar extends Component {
                     Matt Benson
                 </div>
             </div>
-            <div class="col-md-4 d-md-block linkbox">  
+            <div class="col-md-3 d-md-block namecontainer">  
                 <nav class="navbar navbar-expand-sm bg-white justify-content-center">
                     <div class="links">
                         <a class="linklines index" href="https://github.com/Bensonm3">Github </a>
@@ -34,20 +34,29 @@ class Navbar extends Component {
                     </div>
                 </nav>
             </div>
-        </div>
-        <div style={{backgroundImage: `url(${Background})`}} class = "row">
-            <div class="col-md-12 linkbox">
+            <div class="col-md-4 namecontainer links">
+            <nav class="navbar navbar-expand-sm bg-white justify-content-center">
+            <div class="links">
                     <div class="directory">
-                        <Navigation />
-                        <Switch>
+                    <Navigation />
+                        </div>
+                    </div>
+                    </nav>
+
+            </div>
+        </div>
+        <br></br>
+        <body style={{backgroundImage: `url(${Background})`, minHeight: "100vh"}}>
+        <div class = "row">
+        <Switch>
                         <Route path="/" component= {About} exact/> 
                         <Route path="/Contact" component= {Contact} />
                         <Route path="/Portfolio" component= {Portfolio} />
                         <Route component={Error}/>
                         </Switch>
-                    </div>
-            </div>
+            
         </div>
+        </body>
         
         </BrowserRouter>
       );
@@ -55,4 +64,4 @@ class Navbar extends Component {
   }
   
   export default Navbar;
-  
+ 

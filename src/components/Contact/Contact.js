@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css'
+import mailbox from '../Images/mailbox.png'
 
  
 const Contact = () => {
@@ -12,9 +13,10 @@ const Contact = () => {
                         <h2>Contact</h2>
                     </div>
                 </div>
-                <p>Please email me for my resume: 
+                <p>Please email me for my resume:   
+                    <a> </a>
                     <a href="mailto:rabenson6@msn.com?subject=Please send me your resume!">
-                         <img class="mail" alt="mail icon" src="https://cdn.icon-icons.com/icons2/2098/PNG/512/mail_icon_128820.png"/>
+                         <img class="mail" alt="mail icon" src= {mailbox}/> 
                     </a>
                 </p>
             </div>

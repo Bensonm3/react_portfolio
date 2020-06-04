@@ -5,7 +5,7 @@ import oat from '../Images/OAT.jpeg';
 import planner from '../Images/planner.jpeg';
 import weather from '../Images/rpc.jpg';
 import quiz from '../Images/rpg.png';
-import burger from '../Images/rutgers.jpg';
+import fairweather from '../Images/fairweather.jpeg';
 
  
 const Portfolio = () => {
@@ -51,8 +51,8 @@ const Portfolio = () => {
                 </div>
                 <div class="col-md-6 picborder">
                     <div class="picbox">
-                            <img class="pic pic4" src={burger} alt="pic 4" />
-                            <div class="picbanner"> <a href="https://desolate-sea-53948.herokuapp.com/" >Eat da Burger!</a>
+                            <img class="pic pic4" src={fairweather} alt="pic 4" />
+                            <div class="picbanner"> <a href="https://fair-weather-hiking.herokuapp.com/" >Fair Weather Hiker</a>
                             </div>
                     </div>
                 </div>

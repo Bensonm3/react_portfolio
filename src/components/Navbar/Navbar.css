@@ -30,6 +30,7 @@
 }
 .linkbox {
     padding: 0;
+    background-color: transparent;
 }
 .links {
     float: center;
@@ -38,9 +39,8 @@
 }
 .navbar {
     background-color: #dddddd;
-    line-height: 98px;
+    line-height: 80px;
     margin: 0;
-    padding: 0;
 }
 .linklines:hover {
     font-size: 20px;
@@ -74,5 +74,9 @@
     }
     .namecontainer {
         padding-left: 0;
+    }
+    .body {
+        min-height: 100vh;
+        width: 100%;
     }
 }
