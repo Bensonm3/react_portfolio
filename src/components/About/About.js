@@ -27,8 +27,8 @@ const About = () => {
                 <div class="col-lg-8">
                     <p>
                         I was born and raised in the Pacific Northwest, and attained a bachelors degree in Political Science from Western Washington University. 
-                        Upon graduating I got a job at Costco Travel, and then worked as a Tax Accountant for a few years before joining the international buying office in 2018. 
-                        Now I am taking the coding bootcamp to learn technical skills and to take a job as a developer upon graduation.
+                        Upon graduating I got a job at Costco Travel, and then worked as a Tax Accountant for a few years before joining the International Buying Office in 2018. 
+                        In the past year I have completed the Coding Boot Camp through the University of Washington Professional and Continuing Education Dept, and am now looking to apply these skills in a new career.
                         </p>
                         <br />
                         <p>
@@ -43,8 +43,8 @@ const About = () => {
             <div class="row row2c">
                 <div class="col-lg-12">
                     <p>
-                            In this portfolio you will find several of the projects I have been working on for this program. 
-                            Additonal projects will be added in as I progress in my studies, so I have opted to fill additional space with some pictures of my friends dogs for your enjoyment.
+                            In this portfolio you will find several of the projects I have been working on for this program. As I continue to work on personal projects, more will be added to this page and to my Github account.
+                            
                             You will also find links to my LinkedIn, Resume, and Github portfolio, thank you for stopping by!
                     </p>
                 </div>
