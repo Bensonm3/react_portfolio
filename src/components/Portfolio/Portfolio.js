@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic1" src={getOutside} alt="pic 1" />
                             <div class="picbanner">
-                                <a href="https://bmalkmus.github.io/getOutsideApp/" >Get Outside App</a>  
+                                <a href="https://bmalkmus.github.io/getOutsideApp/" >Get Outside App </a>  
                                 <a class="github" href="https://github.com/bmalkmus/getOutsideApp" >Github</a> 
                                 
                             </div>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                     <div class="picbox">
                         <img class="pic pic2" src={weather} alt="pic 2" />
                         <div class="picbanner"> 
-                            <a href=" https://bensonm3.github.io/hw6/" >Weather App</a> 
+                            <a href=" https://bensonm3.github.io/hw6/" >Weather App </a> 
                             <a class="github" href="https://github.com/Bensonm3/Weather-Dashboard" >Github</a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic3" src={quiz} alt="pic 3" />
                             <div class="picbanner"> 
-                                <a href="https://bensonm3.github.io/hw4/quiz.html" >Code Quiz</a> 
+                                <a href="https://bensonm3.github.io/hw4/quiz.html" >Code Quiz </a> 
                                 <a class="github" href="https://github.com/Bensonm3/Coding-Quiz-Game" >Github</a>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic4" src={fairweather} alt="pic 4" />
                             <div class="picbanner"> 
-                                <a href="https://fair-weather-hiking.herokuapp.com/" >Fair Weather Hiker</a>
+                                <a href="https://fair-weather-hiking.herokuapp.com/" >Fair Weather Hiker </a>
                                 <a class="github" href="https://github.com/doctorbebo/Fair_Weather_Hiking_App" >Github</a>
                             </div>
                     </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic5" src={oat} alt="pic 5" />
                             <div class="picbanner"> 
-                                <a href="https://secret-wildwood-65776.herokuapp.com/" >Order Allocation Tool</a>
+                                <a href="https://secret-wildwood-65776.herokuapp.com/" >Order Allocation Tool </a>
                                 <a class="github" href="https://github.com/esteinmetzer/reborn-badass" >Github</a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                     <div class="picbox">
                             <img class="pic pic5" src={planner} alt="pic 5" />
                             <div class="picbanner"> 
-                            <a href="https://bensonm3.github.io/Day-Planner/" >Day Planner</a>
+                            <a href="https://bensonm3.github.io/Day-Planner/" >Day Planner </a>
                             <a class="github"href="https://github.com/Bensonm3/Day-Planner" >Github</a>
                                 </div>
                         </div>
