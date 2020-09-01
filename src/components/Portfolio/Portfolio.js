@@ -29,6 +29,7 @@ const Portfolio = () => {
                             <img class="pic pic1" src={getOutside} alt="pic 1" />
                             <div class="picbanner">
                                 <a href="https://bmalkmus.github.io/getOutsideApp/" >Get Outside App</a>  
+                                <a href="https://github.com/bmalkmus/getOutsideApp" >Github</a> 
                                 
                             </div>
                     </div>
