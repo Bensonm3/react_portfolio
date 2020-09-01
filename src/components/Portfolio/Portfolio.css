@@ -48,6 +48,9 @@ z-index: 0;
     bottom: 30px;
     z-index: 1;
 }
+.github {
+    font-size: .5em;
+}
 .footer {
 bottom: 0;
 background-color: #666666;
