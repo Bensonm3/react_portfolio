@@ -43,7 +43,7 @@ const About = () => {
             <div class="row row2c">
                 <div class="col-lg-12">
                     <p>
-                            In this portfolio you will find several of the projects I have been working on for this program. As I continue to work on personal projects, more will be added to this page and to my Github account.
+                            In this portfolio you will find several of the projects I have been working on during my program. As I continue to work on personal projects, more will be added to this page and to my Github account.
                             
                             You will also find links to my LinkedIn, Resume, and Github portfolio, thank you for stopping by!
                     </p>
