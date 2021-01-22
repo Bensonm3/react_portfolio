@@ -29,7 +29,7 @@ class Navbar extends Component {
                 <nav class="navbar navbar-expand-sm bg-white justify-content-center">
                     <div class="links">
                         <a class="linklines index" href="https://github.com/Bensonm3">Github </a>
-                        <a class="linklines portfolio" href="https://github.com/Bensonm3/Resume/blob/master/Matt_Benson_Resume.pdf">Resume</a>
+                        <a class="linklines portfolio" href="https://github.com/Bensonm3/Resume">Resume</a>
                         <a class="linklines contact" href="https://www.linkedin.com/in/matt-benson-b7a24a91/"> LinkedIn</a>
                     </div>
                 </nav>
