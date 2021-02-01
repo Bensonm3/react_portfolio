@@ -1,4 +1,4 @@
-.row2 {
+.row3 {
     margin-top: 20px;
 }
 .portfoliobox {
@@ -6,16 +6,25 @@
 }
 h2 {
     font-size: 30px;
-    color: #4aaaa5;
+    text-align: center;
+    color: black;
     line-height: 50px;
     padding-left: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-bottom: 1px solid #dddddd;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.projectTitle {
+text-decoration: none;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+}
+
+.projectTitle:hover {
+    color: goldenrod;
+    text-decoration: none;
 }
 
 .contentbox {
     background-color: #ffffff;
-    margin-left: 45px;
     text-align: left;
 
 }
@@ -27,8 +36,11 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
 }
 .picbox {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 120%;
+    margin-top:30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .pic {
 width: 300px;
@@ -37,38 +49,34 @@ border: 1px solid #dddddd;
 position: relative;
 z-index: 0;
 }
+.pic5, .pic4 {
+    height: 175px !important;
+}
 .picbanner {
     height: 40px;
     font-size: 30px;
     width: 300px;
-    background-color: lightgray;
+    background-color: rgb(53, 53, 53);
     color: #ffffff;
     text-align: center;
-    position: absolute;
-    bottom: 220px;
     z-index: 1;
 }
 .picbanner2{
     height: 40px;
     font-size: 12px;
     width: 300px;
-    background-color: lightgray;
+    background-color: rgb(53, 53, 53);
     color: #ffffff;
     text-align: center;
     position: absolute;
     z-index: 1;
-    bottom: 40px;
-    color: black;
 }
 .description{
     font-size: 15px;
     height: 0;
 }
 .github {
-    font-size: .5em;
-}
-.fairWeather{
-    font-size: .75em;
+    font-size: .8em;
 }
 .footer {
 bottom: 0;
@@ -78,15 +86,8 @@ width: 100%;
 text-align: center;
 color: #ffffff;
 }
+.github{
+    text-decoration: none;
+    height: 20px
+}
 
-@media (max-width: 640px) {
-    .contentbox{
-        width: 335px;
-        margin-left: 25%;
-    }
-}
-@media (max-width: 768px;){
-    .contentbox{
-        margin-right: 25%;
-    }
-}

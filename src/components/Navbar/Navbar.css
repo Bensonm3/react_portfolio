@@ -3,31 +3,39 @@
 }
 
 .row1 {
-    margin-left: 0;
-    height: 100px;
+    margin: 0;
+    padding: 0;
+    height: 100% !important;
     width: 100%;
-    border-bottom: 2px solid #cccccc;
-    background-color:#ffffff;
+    background-color: black;
+}
+.row{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+
+.row2 {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100% !important;
+    width: 100%;
 }
 .namecontainer {
     padding-right: 0;
+    background-color: black;
 }
 .namebox {
-    background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    font-size: 28px;
+    font-size: 45px;
     line-height: 98px;
     margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
-.portfolio {
-    padding-left: 5px;
-    padding-right: 5px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-}
 .linkbox {
     padding: 0;
     background-color: transparent;
@@ -37,46 +45,26 @@
     margin: 0;
     padding: 0;    
 }
+.linklines {
+    color: white;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
 .navbar {
-    background-color: #dddddd;
     line-height: 80px;
     margin: 0;
 }
 .linklines:hover {
-    font-size: 20px;
-    color: purple;
+    color: goldenrod;
+    text-decoration: none;
 }
 
-@media (max-width: 640px) {
-
-    head {
-        height: 200px;
+@media screen and (max-width: 767px) {
+    .mobileHidden{
+        display: none;
     }
-    .row1 {
-        height: 200px;
-    }
-    .namebox {
-        width: 100%;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        border-bottom: 0 0 0;
-        margin-left: 0;
-    }
-    .links {
-        width: 100%;
-        background-color:#ffffff;
-        height: 50%;
-        text-align: center;
-        border-bottom: 1px solid #cccccc;
-    }
-    .linklines {
-        text-align: center;
-    }
-    .namecontainer {
-        padding-left: 0;
-    }
-    .body {
-        min-height: 100vh;
-        width: 100%;
+    .contentbox{
+        margin:auto;
     }
 }
