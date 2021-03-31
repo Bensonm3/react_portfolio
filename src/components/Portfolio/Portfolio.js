@@ -2,6 +2,7 @@ import React from 'react';
 import './Portfolio.css'
 import getOutside from '../Images/hangman.jpg';
 import gala from '../Images/gala.png';
+import Rotary from '../Images/Rotary.png';
 import planner from '../Images/planner.jpeg';
 import weather from '../Images/rpc.jpg';
 import quiz from '../Images/rpg.png';
@@ -118,9 +119,23 @@ const Portfolio = () => {
                                 <a>React, Javascript, MongoDB, Mongoose, Redux, Materialize CSS</a>
                             </div>
                     </div>
-                </div>
-                
-                </div>
+                </div>    
+            </div>
+            <div class="row row2d">
+                <div class="col-md-6 picborder">
+                    <div class="picbox">
+                            <div class="picbanner"> 
+                                <a class = "projectTitle" href="https://woodinvillerotary.ejoinme.org/MyEvents/AHandFullofFoodaHeartFullofHope/tabid/1207264/Default.aspx" >Rotary Auction </a>
+                            </div>
+                            <img class="pic pic6" src={Rotary} alt="pic 6" />
+                            <div class="picbanner2">
+                                <a>Auction Website for the Woodinville Rotary</a>
+                                <br></br>
+                                <a>Greater Giving, Javascript, HTML, CSS</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
             </div>
             <div class="col-md-1 mobileHidden"></div>
         </div>

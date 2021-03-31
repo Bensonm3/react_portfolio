@@ -43,7 +43,7 @@ const About = () => {
                             <div class ="row">
                                 <div class="col-md-3 mobileHidden">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 carouselContainer">
                                     <div class="carousel">
                                         <Carousel>
                                             <div>

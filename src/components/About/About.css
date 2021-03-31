@@ -40,6 +40,6 @@ body {
     margin: auto;
 }
 
-.selected{
-    background-color: rgb(53, 53, 53);
+.slide{
+    background: rgb(53, 53, 53) !important;
 }
