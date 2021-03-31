@@ -39,3 +39,7 @@ body {
 .carousel{
     margin: auto;
 }
+
+.selected{
+    background-color: rgb(53, 53, 53);
+}
